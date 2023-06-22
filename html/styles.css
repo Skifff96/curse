@@ -1,0 +1,498 @@
+div{
+    display: block;
+}
+
+body {
+    background: repeating-linear-gradient( 135deg, #21211f, #21211f 15px, #040404 10px, #040404 35px );
+    background-attachment: fixed;
+    background-size: 100vw;
+    margin: 0;
+}
+
+.BlackBox {
+    margin: 0 auto;
+    background: url(../img/Black.png);
+    width: 70%;
+}
+
+.logo {
+    padding-top: 8%;
+    margin-left: 8%;
+    color: white;
+    margin-bottom: 5%;
+   
+}
+
+.logo p{
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+    .logo img {
+        text-align: center;
+        margin-left:30px;
+        width: 110px;
+        transition: transform .8s ease-in-out;
+    }
+
+.logoImg:hover {
+    transform: rotate(440deg); 
+}
+
+
+
+.grape {
+    float: right;
+    margin-right:8%;
+    margin-top: -19%;
+    width: 35%;
+}
+
+.WhiteBox {
+    padding-top: 5.5%;
+    margin: auto;
+    background: white;
+    width: 95%;
+    border-radius: 10px;
+    border-width: 6px;
+    border-color: #e0e0e2;
+    min-width: 300px;
+    border-style: solid;
+    Box-shadow: 0px 5px 0px #424443,0px -5px 0px #424443,5px 0px 0px #424443,-5px 0px 0px #424443;
+}
+
+.main{
+    padding-top: 5%;
+
+}
+
+.LeftSide {
+    width: 23%;
+    margin-left: 2%;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.SearchField {
+    background: #eeeeee;
+    width: 60%;
+    height: 23px;
+    border-width: 1px;
+}
+
+.Search {
+    font-size: 15px;
+    
+}
+
+.button {
+    border-radius: 3px;
+    border-width:1px;
+    padding: 0;
+    margin-top: 1px;
+    width: 65px;
+    height: 24px;
+    font-size: 15px;
+    background: transparent;
+    background: linear-gradient(to top,#d7d6d9 50%, #eeecf0 50%)
+}
+
+a{
+    text-decoration: none;
+    color: forestgreen;
+ }
+
+.Links {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.BarLink a {
+    padding-bottom: -4px;
+    
+}
+
+.BarLink:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px; 
+    background-color: #868282; /* исчезаниe линии*/
+    transition: width 1s; /* Время эффекта */
+}
+
+.BarLink:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    left: 0;
+    height: 2px; 
+    background-color: #03db64; /* появлениe линии*/
+    transition: width 1s; /* Время эффекта */
+}
+
+.Curient {
+    background-color: #a8dd71;
+    color: #424443;
+}
+
+p{
+    margin:0;
+}
+
+.Text {
+    position: absolute;
+    padding-top: 4px;
+    padding-left: 3px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+    
+}
+
+.imgSideBar {
+    width: 100%;
+    height: 33px;
+}
+
+.Punkt{
+    margin-top: 8px;
+}
+
+.LinksLast {
+    margin-top: 7px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.vertical_dotted_line {
+    border-left: 1px dotted green;
+    height: 40px;
+    margin-top: 0.5%;
+    padding-top: 8%;
+    display: inline-block;
+    margin-left: 13px;
+    position: absolute;
+    margin-left: 13px;
+}
+
+
+
+.footer {
+    margin-top: 25px;
+    color: white;
+    text-align:center;
+    padding-bottom: 2px;
+}
+
+.Sign {
+    padding-top: 3px;
+    color: forestgreen;
+}
+
+.Date{
+    display: inline-block;
+    color: black;
+}
+
+
+
+.News1 {
+    margin-top: 10px;
+    margin-left: 7%;
+    padding-bottom: 20px;
+    color: black;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+    width: 80%;
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px;
+    
+
+}
+
+.News1 p{
+    margin: 0;
+    padding: 4px, 4px, 0px, 4px;
+}
+
+.NewsImg{
+    float: right;
+
+}
+
+
+.HistoryImg {
+    float: right;
+}
+
+.History {
+    float: right;
+    color: dimgrey;
+    font-size: 17px;
+}
+
+.HistoryContent{
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.sig{
+    margin-left: -12%;
+}
+
+.Sell {
+    width: 100%;
+    margin: 0, auto;
+}
+
+
+.Shop {
+    width: 30%;
+   
+}
+
+.ShopIm {
+    width: 300px;
+    height: 210px;
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    text-align: left;
+    transition: 1s;
+
+}
+
+.ShopIm:hover {
+    transform: scale(2);
+}
+
+.BuyPLS{
+    font-size: 22px;
+}
+
+.tg {
+    text-transform: uppercase;
+    color: #03db64;
+    text-decoration-style: solid;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.PaintList{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+
+}
+
+.PaintItem{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+ul {
+    list-style-type: none;
+}
+
+.Naiti{
+    display: inline-block;
+}
+
+.ArtImage {
+    width: 300px;
+    height: 210px;
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    text-align: left;
+    transition: 1s;
+}
+
+.ArtImage:hover {
+   transform: scale(2);
+}
+
+.sig{
+    color: dimgrey;
+}
+
+.List{
+    font-size: 19px;
+    color: black;
+    text-align: justify;
+}
+
+li{
+    padding-bottom: 3px;
+   
+}
+
+
+.test2 {
+    margin-left: 30%;
+    margin-top: -450px;
+    display: inline-block; 
+    width: 68%;
+}
+
+h1 {
+    color: #549d0e;
+    margin: 0;
+}
+
+.FLine {
+    width: 97%;
+    color: green;
+    margin: 0;
+    min-width: 100px;
+    margin-top: -1%;
+}
+
+.Sline {
+    border-color: #a8dd71;
+    width: 97%;
+    margin-top: -5px;
+    min-width: 100px;
+}
+
+.Ttext {
+    width: 97%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+    .BlackBox {
+        width: 100%;
+        height:100%;
+    }
+    .PaintItem {
+        display: block;
+    }
+ }
+
+@media only screen and (max-width:850px) {
+    .imgSideBar{
+        width:70%;
+    }
+    .Text{
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .Links{
+        font-size: 15px;
+        width: 75%;
+    }
+    .SearchField{
+        width: 50%;
+    }
+    .vertical_dotted_line{
+        display: none;
+    }
+    .grid {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .logo p{
+        font-size: 150%;
+    }
+    .Links {
+        font-size: 12px;
+    }
+    h1{
+        font-size:20px;
+        margin-top: 20px;
+    }
+    .sign {
+        font-size: 12px;
+    }
+    p {
+        font-size: 17px;
+    }
+    Ttext {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .SearchField {
+        width: 50%;
+    }
+
+    .imgSideBar {
+        width: 50%;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .Naiti {
+        display: none;
+    }
+
+    .Text {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .Links {
+        width: 60%;
+        
+    }
+    .BarLink{
+        margin-bottom: 40px;
+    }
+}
+
+}
+
+@media only screen and (max-width:500px) {
+    .logo img {
+        width: 80px;
+    }
+
+    .logo p {
+        font-size: 120%;
+    }
+
+    .PaintList {
+        gap: 30px 20px;
+    }
+
+    .ArtImage{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
